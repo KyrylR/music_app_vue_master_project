@@ -2,6 +2,7 @@ module.exports = {
   root: true,
   env: {
     node: true,
+    jest: true,
   },
   extends: [
     'plugin:vue/vue3-essential',
@@ -13,6 +14,15 @@ module.exports = {
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    'vuejs-accessibility/label-has-for': [1, {
+      components: ['Label'],
+      assert: 'either',
+      required: {
+        every: ['nesting', 'id'],
+      },
+      allowChildren: false,
+    }],
+    'vuejs-accessibility/form-control-has-label': [1, {}],
   },
   overrides: [
     {
