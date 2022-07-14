@@ -1,14 +1,12 @@
 import { createStore } from 'vuex';
+import auth from '@/store/modules/auth';
+import player from '@/store/modules/player';
+// import modules from '@/store/modules';
 
 export default createStore({
-  state: {
-  },
-  getters: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
+  // modules,
   modules: {
+    auth,
+    player,
   },
 });
