@@ -16,6 +16,7 @@
     "autoprefixer": "^10",
     "core-js": "^3.8.3",
     "firebase": "8",
+    "heroku": "^7.62.0",
     "howler": "^2.2.3",
     "lodash": "^4.17.21",
     "nprogress": "^0.2.0",
