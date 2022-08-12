@@ -1,4 +1,11 @@
-# music-app_master-project
+# Music App (Vue.js master project)
+
+Complete Vue Mastery 2022 (w/ Vuex, Composition API, Router).
+
+## Description
+
+A master project at the end of a Vue.js course that helped me understand the basics of developing websites using Vue.js 
+
 
 ## Project setup
 ```
@@ -15,20 +22,10 @@ yarn serve
 yarn build
 ```
 
-### Run your unit tests
-```
-yarn test:unit
-```
+## Authors
 
-### Run your end-to-end tests
-```
-yarn test:e2e
-```
+ex. Kyrylo Riabov [Gmail](kyryl.ryabov@gmail.com)
 
-### Lints and fixes files
-```
-yarn lint
-```
+## License
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+This project is licensed under the [MIT] License - see the LICENSE.md file for details
