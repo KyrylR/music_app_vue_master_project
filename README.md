@@ -6,6 +6,7 @@ Complete Vue Mastery 2022 (w/ Vuex, Composition API, Router).
 
 A master project at the end of a Vue.js course that helped me understand the basics of developing websites using Vue.js 
 
+Deployed on Heroku: https://gentle-wildwood-98168.herokuapp.com/
 
 ## Project setup
 ```
